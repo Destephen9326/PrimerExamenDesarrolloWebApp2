@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.contenedor {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 420px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* inputs del formulario */
+.entrada {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.boton-azul {
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.boton-azul:hover {
+  opacity: 0.9;
+}
+
+.boton-simple {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* tabla de gastos */
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.tabla th, .tabla td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.boton-editar {
+  background-color: #ffeaa7;
+  border: 1px solid #fabd3b;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton-borrar {
+  background-color: #ff7675;
+  border: 1px solid #d63031;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.alerta-amarilla {
+  margin-top: 10px;
+  background-color: #fff3cd;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.alerta-roja {
+  margin-top: 10px;
+  background-color: #f8d7da;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.texto-error {
+  color: red;
+  margin: 5px 0;
+  font-size: 14px;
+}
